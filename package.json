@@ -1,0 +1,12 @@
+{
+  "name": "reservia-project2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "sass sass/main.scss:public/css/style.css -w  --no-source-map"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
