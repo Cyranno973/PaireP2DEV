@@ -1,1 +1,100 @@
+:root {
+  font-size: 62.5%;
+}
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+}
+
+button {
+  border: none;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+}
+nav img {
+  margin-left: 3%;
+}
+
+ul {
+  display: flex;
+}
+ul li a {
+  padding-top: 2.4rem;
+  margin: 10px;
+  color: #000000;
+}
+ul li:last-child a {
+  border-top: none;
+  color: #0065FC;
+}
+ul li .nav-link:hover {
+  border-top: solid #0065FC 2px;
+  color: #0065FC;
+}
+
+.input-search {
+  margin-top: 10px;
+  border: solid 1px #F2F2F2;
+}
+
+input {
+  padding: 5px 0;
+  padding-left: 15px;
+  border: none;
+  outline: none;
+}
+input::placeholder {
+  font-weight: bold;
+  color: #000000;
+}
+
+.search-button {
+  background-color: #0065FC;
+  color: #fff;
+  padding: 5px;
+  border-radius: 0 10px 10px 0;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+
+.search-form i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F2F2F2;
+  font-size: 1.5rem;
+  min-width: 4.6rem;
+  min-height: 4.6rem;
+  border-radius: 1.5rem 0 0 1.5rem;
+}
+
+.container {
+  margin: 0 3%;
+}

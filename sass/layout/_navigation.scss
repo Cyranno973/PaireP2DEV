@@ -1,3 +1,29 @@
 nav{
-  //background-color: #232323;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+  img{
+    margin-left: 3%;
+  }
+}
+ul{
+  display: flex;
+  li{
+    a{
+      padding-top: 2.4rem;
+      margin: 10px;
+      color: $neutral-color;
+    }
+    &:last-child a{
+      border-top: none;
+      color: $primary-color;
+    }
+    .nav-link{
+      &:hover{
+        border-top: solid $primary-color 2px;
+        color: $primary-color;
+      }
+    }
+  }
 }
